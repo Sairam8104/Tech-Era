@@ -1,0 +1,21 @@
+.link-item {
+  text-decoration: none;
+}
+
+.button-items {
+  display: flex;
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+.course-logo {
+  height: 65px;
+  width: 65px;
+}
+
+.course-name {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #475569;
+}

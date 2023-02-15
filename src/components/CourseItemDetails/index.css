@@ -1,0 +1,89 @@
+.ItemDetailsMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.image-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-size {
+  height: 80%;
+  width: 30%;
+}
+
+.text-container {
+  padding: 30px;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff;
+  box-shadow: 10px 8px 10px #e8e8e8;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.item-heading {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 30px;
+}
+.item-para {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.failure-image-size {
+  height: 50%;
+  width: 90%;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 32px;
+  color: #475569;
+}
+
+.failure-para {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 20px;
+  color: #64748b;
+}
+
+.failure-btn {
+  background-color: #4656a1;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 16px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.Header-app-container {
+  display: flex;
+  background-color: #f1f5f9;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.website-logo {
+  height: 60px;
+  margin-left: 80px;
+}
